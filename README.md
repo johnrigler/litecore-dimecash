@@ -1,4 +1,4 @@
-DimeCash forks is basic functionality from litecore.  It adds in functionality that attempts to interpret its unspent addresses as bash fuctions and will release funds given a hashed paring.  It uses johnrigler/unspendable.  DimeCash also will initialize and continue to add empty transactions as addresses of other cryptocurrencies change.  This allows it to have a great understanding of how to do atomic swaps.  
+DimeCash forks its basic functionality from litecore.  It adds in functionality that attempts to interpret its unspent addresses as bash fuctions and will release funds given a hashed paring.  It uses johnrigler/unspendable.  DimeCash also will initialize and continue to add empty transactions as addresses of other cryptocurrencies change.  This allows it to have a great understanding of how to do atomic swaps.  
 
 Transactions are based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct the previously unspendable funds.
 
@@ -37,6 +37,22 @@ declare -f Fun.Times | cksum | cut -c 1-8
 
 The winning response is transaction of 0.14684603 to unlock.
 
+https://www.trentu.ca/faculty/jjoyce/fw-150.htm
+
+```
+      Professor Loewy-Brueller (though as I shall promptly prove	15
+his whole account of the Sennacherib as distinct from the Shal-	    16
+manesir sanitational reforms and of the Mr Skekels and Dr           17
+Hydes problem in the same connection differs toto coelo from the	18
+fruit of my own investigations  --   though the reason I went to	19
+Jericho must remain for certain reasons a political secret      	20
+especially as I shall shortly be wanted in Cavantry, I congratulate	21
+myself, for the same and other reasons   --   as being again hope-	22
+lessly vitiated by what I have now resolved to call the dime and	23
+cash diamond fallacy) in his talked off confession which recently	24
+met with such a leonine uproar on its escape after its confinement	25
+
+```
 
 Litecoin Core integration/staging tree
 =====================================
