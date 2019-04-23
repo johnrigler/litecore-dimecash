@@ -1,6 +1,6 @@
 DimeCash forks is basic functionality from litecore.  It adds in functionality that attempts to interpret its unspent addresses as bash fuctions and will release funds given a hashed paring.  It uses johnrigler/unspendable.  DimeCash also will initialize and continue to add empty transactions as addresses of other cryptocurrencies change.  This allows it to have a great understanding of how to do atomic swaps.  
 
-Transactions are based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct previously the unspendable funds.
+Transactions are based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct the previously unspendable funds.
 
 
 Example: 
