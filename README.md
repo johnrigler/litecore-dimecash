@@ -35,7 +35,7 @@ declare -f Fun.Times | cksum | cut -c 1-8
 14684603
 ```
 
-Solution is transaction of 0.14684603 to unlock.
+The winning response is transaction of 0.14684603 to unlock.
 
 
 Litecoin Core integration/staging tree
