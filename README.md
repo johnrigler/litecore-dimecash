@@ -41,8 +41,8 @@ https://www.trentu.ca/faculty/jjoyce/fw-150.htm
 
 ```
       Professor Loewy-Brueller (though as I shall promptly prove	15
-his whole account of the Sennacherib as distinct from the Shal-	    16
-manesir sanitational reforms and of the Mr Skekels and Dr           17
+his whole account of the Sennacherib as distinct from the Shal-	      16
+manesir sanitational reforms and of the Mr Skekels and Dr             17
 Hydes problem in the same connection differs toto coelo from the	18
 fruit of my own investigations  --   though the reason I went to	19
 Jericho must remain for certain reasons a political secret      	20
