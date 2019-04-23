@@ -4,7 +4,7 @@ Transactions are based on a secret function which is at first addressed as its s
 
 
 Example: 
-
+```
 bash-3.2$ Fun.Times() {
 ############################################
 # None of this will get executed
@@ -22,7 +22,7 @@ Fun.Times ()
 
 bash-3.2$ declare -f Fun.Times | sum
 47358 1
-
+```
 So a transaction of $X.00047358 send to an unspendable address 
 something like DCFUNTiMESXXXXXXXXXXXXXXXferbre would be release back 
 30% to the sender and 70% to the recipient after two weeks or 
@@ -30,9 +30,10 @@ make a different transaction as specified in a bash function.
 
 The cksum of the function would then become the key to releasing the funds
 unless otherwise specified
-
+```
 declare -f Fun.Times | cksum | cut -c 1-8
 14684603
+```
 
 Solution is transaction of 0.14684603 to unlock.
 
