@@ -31,6 +31,8 @@ So a transaction of $X.00047358 send to an unspendable address
 something like DCFUNTiMESXXXXXXXXXXXXXXXferbre would be seen as going to an 
 unspendable address.  
 
+The token in this system would be called a diamond and normal spendable addresses would begin with DC.  
+
 If some actually sends a large sum, then they may inadvertently 
 lose their funds.  For this reason, dimecash will award one entire diamond (its token) once a whole diamond has been essentially burned.   Special codes must be sent to actually use proof-of-burn in a way that doesn't trigger this.
 
