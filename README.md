@@ -1,3 +1,6 @@
+
+<a href=rigler.org> xcxx </a>
+
 DimeCash forks its basic functionality from litecore.  I call it a language coin because it exploits some simple tricks to create records that are at times readable easily from the ledger.  Basically, a special 5-8 digit code is used in conjunction with an obviously unspendable address to write a message.  If, for example a zip code were sent, then one might surmise it as such.  All manner of codes (including octal systems) can achieve different goals.
 
 Transactions can be based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct the previously unspendable funds.
