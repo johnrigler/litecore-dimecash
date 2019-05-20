@@ -24,32 +24,29 @@ bash-3.2$ declare -f Fun.Times | sum
 47358 1
 ```
 So a transaction of $X.00047358 send to an unspendable address 
-something like DCFUNTiMESXXXXXXXXXXXXXXXferbre would be release back 
-30% to the sender and 70% to the recipient after two weeks or 
-make a different transaction as specified in a bash function.
+something like DCFUNTiMESXXXXXXXXXXXXXXXferbre would be seen as going to an 
+unspendable address.  
 
-The cksum of the function would then become the key to releasing the funds
-unless otherwise specified
-```
-declare -f Fun.Times | cksum | cut -c 1-8
-14684603
-```
+If some actually sends a large sum, then they may inadvertently 
+lose their funds.  For this reason, dimecash will award one entire diamond (its token) once a whole diamond has been essentially burned.   Special codes must be sent to actually use proof-of-burn in a way that doesn't trigger this.
 
-The winning response is transaction of 0.14684603 to unlock.
+The question of what an obviously unspendable address actually consists of is going to be necessary to understand and deal with.
+
+The name is Derrived from James Joyce's largely unread masterpiece-- Finnegans Wake: 
 
 https://www.trentu.ca/faculty/jjoyce/fw-150.htm
 
 ```
       Professor Loewy-Brueller (though as I shall promptly prove	15
-his whole account of the Sennacherib as distinct from the Shal-	      16
-manesir sanitational reforms and of the Mr Skekels and Dr             17
+his whole account of the Sennacherib as distinct from the Shal-	    16
+manesir sanitational reforms and of the Mr Skekels and Dr           17
 Hydes problem in the same connection differs toto coelo from the	18
 fruit of my own investigations  --   though the reason I went to	19
 Jericho must remain for certain reasons a political secret      	20
 especially as I shall shortly be wanted in Cavantry, I congratulate	21
 myself, for the same and other reasons   --   as being again hope-	22
-lessly vitiated by what I have now resolved to call the dime and	23
-cash diamond fallacy) in his talked off confession which recently	24
+lessly vitiated by what I have now resolved to call the dime and	23  <-- dime 
+cash diamond fallacy) in his talked off confession which recently	24  <-- cash diamond
 met with such a leonine uproar on its escape after its confinement	25
 
 ```
