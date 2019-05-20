@@ -1,6 +1,6 @@
-DimeCash forks its basic functionality from litecore.  It adds in functionality that attempts to interpret its unspent addresses as bash fuctions and will release funds given a hashed paring.  It uses johnrigler/unspendable.  DimeCash also will initialize and continue to add empty transactions as addresses of other cryptocurrencies change.  This allows it to have a great understanding of how to do atomic swaps.  
+DimeCash forks its basic functionality from litecore.  I call it a language coin because it exploits some simple tricks to create records that are at times readable easily from the ledger.  Basically, a special 5-8 digit code is used in conjunction with an obviously unspendable address to write a message.  If, for example a zip code were sent, then one might surmise it as such.  All manner of codes (including octal systems) can achieve different goals.
 
-Transactions are based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct the previously unspendable funds.
+Transactions can be based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct the previously unspendable funds.
 
 
 Example: 
