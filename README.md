@@ -1,5 +1,5 @@
 
-<a href=rigler.org> xcxx </a>
+
 
 DimeCash forks its basic functionality from litecore.  I call it a language coin because it exploits some simple tricks to create records that are at times readable easily from the ledger.  Basically, a special 5-8 digit code is used in conjunction with an obviously unspendable address to write a message.  If, for example a zip code were sent, then one might surmise it as such.  All manner of codes (including octal systems) can achieve different goals.
 
