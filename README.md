@@ -49,12 +49,6 @@ The name is Derrived from James Joyce's largely unread masterpiece-- Finnegans W
 https://www.trentu.ca/faculty/jjoyce/fw-150.htm
 
 ```
-      Professor Loewy-Brueller (though as I shall promptly prove	15
-his whole account of the Sennacherib as distinct from the Shal-	    16
-manesir sanitational reforms and of the Mr Skekels and Dr           17
-Hydes problem in the same connection differs toto coelo from the	18
-fruit of my own investigations  --   though the reason I went to	19
-Jericho must remain for certain reasons a political secret      	20
 especially as I shall shortly be wanted in Cavantry, I congratulate	21
 myself, for the same and other reasons   --   as being again hope-	22
 lessly vitiated by what I have now resolved to call the dime and	23  <-- dime 
