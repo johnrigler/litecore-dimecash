@@ -1,10 +1,16 @@
 
 
+DimeCash forks its basic functionality from litecore.  It is called a language coin because it exploits some 
+simple tricks to create records that are at times readable easily from the ledger.  Basically, a special 5-8 
+digit code (Advanced Satoshi Code) is used in conjunction with an obviously unspendable address to write a message.  
+If, for example a zip code were sent, then one might surmise it as such.  All manner of codes (including octal systems)
+ can achieve different goals.
 
-DimeCash forks its basic functionality from litecore.  I call it a language coin because it exploits some simple tricks to create records that are at times readable easily from the ledger.  Basically, a special 5-8 digit code (Advanced Satoshi Code)
-is used in conjunction with an obviously unspendable address to write a message.  If, for example a zip code were sent, then one might surmise it as such.  All manner of codes (including octal systems) can achieve different goals.
+Transactions can be based on a secret file which is at first addressed as its sum send to an unspendable address.  Since I 
+come from a unix shell background, I tend to express the secret as a bash function and use the 'sum' command to create a very
+small hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction, 
+process and display it as human-readable text, or execute it locally.  
 
-Transactions can be based on a secret function which is at first addressed as its sum send to an unspendable address.  When the function executes successful, it will generate a second hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction and direct the previously unspendable funds.
 
 
 Example: 
