@@ -33,7 +33,7 @@ Fun.Times ()
 bash-3.2$ declare -f Fun.Times | sum
 47358 1
 ```
-So a transaction of $X.00047358 send to an unspendable address 
+So a transaction of $X.00047358 sent to an unspendable address 
 something like DCFUNTiMESXXXXXXXXXXXXXXXferbre would be seen as going to an 
 unspendable address.  
 
