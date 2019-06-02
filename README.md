@@ -49,10 +49,6 @@ I now have the beginnings of a website which will eventually help to interpret t
 
 http://dime.cash/
 
-If you would like to contribute, this is my personal Dogecoin address:
-
-https://dogechain.info/address/D9gvydexQNwmn3XxjZMZZcs4kzuirv635P
-
 
 The name is a reference to James Joyce's largely unread masterpiece-- Finnegans Wake: 
 
