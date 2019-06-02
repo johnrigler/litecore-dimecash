@@ -45,7 +45,11 @@ lose their funds.  For this reason, dimecash will award one entire diamond (its 
 
 The question of what an obviously unspendable address actually consists of is going to be necessary to understand and deal with.
 
-The name is Derrived from James Joyce's largely unread masterpiece-- Finnegans Wake: 
+I now have the beginnings of a website which will eventually help to interpret transactions sent to unspendable addresses.  For now, it does at least allow you to create an unspendable address.  No type checking yet, so avoid capital O, capital I, and the numbers 0 and 1.
+
+http://dime.cash/
+
+The name is a reference to James Joyce's largely unread masterpiece-- Finnegans Wake: 
 
 https://www.trentu.ca/faculty/jjoyce/fw-150.htm
 
