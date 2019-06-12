@@ -10,18 +10,17 @@
 <h1>Welcome to Dimecash! </h1>
 <div>
 
-TLDR, test this out: <a href=http://dime.cash/form.php > here. </a>
-Also, an unspendable api is now available:
-<a href=https://dime.cash/unspendable.html> API </a>
+The unspendable api is now available, you can test from this site or remotely:
+<a href=https://dime.cash/api.html> API </a>
 <hr>
-This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. The first is that (unlike bitcoin) currencies such as Dogecoin can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for an system of Advances Satoshi Codes to be implemented to express complicated ideas with a series of up to eight (or potentially more) digits in a system that is <a href= < cheap, reliable, and totally opened to anonymous entry.  The second expoit which feeds into this system involves the <a href=https://en.wikipedia.org/wiki/Base58> Base58Check </a> (base-58) numerical representation which is inherited from bitcoin. Finally, this site will bring the two elements together with the use of portable "secret" files that can contain a fair amount of text which a human could make sense of, and which can also always be reduced to various small hashes.  The value-add of dimecash is in the management of these secrets and the potential to support identity portals into secured blockchain solutions.  
+<h2>Summary</h2>
+This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. The first is that (unlike bitcoin) currencies such as Dogecoin (itself a Litecoin fork) can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for an system of Advances Satoshi Codes to be implemented to express complicated ideas with a series of up to eight (or potentially more) digits in a system that is <a href= < cheap, reliable, and totally opened to anonymous entry.  The second expoit which feeds into this system involves the <a href=https://en.wikipedia.org/wiki/Base58> Base58Check </a> (base-58) numerical representation which is inherited from bitcoin. Finally, this site will bring the two elements together with the use of portable "secret" files that can contain a fair amount of text which a human could make sense of, and which can also always be reduced to various small hashes.  The value-add of dimecash is in the management of these secrets and the potential to support identity portals into secured blockchain solutions.  
 
 Because Dimecash seeks to use an addressing scheme that starts with DC, unspendable addresses can be shared with Dogecoin, so that the system can be started before the Litecoin fork is completed.  This may seem strange, but for the ideas expressed through Dimecash to take hold, atomic swaps between various currencies must be supported.  Regardless of the price of a currency, it still exists as an immutable record with Byzantine Fault Tolerance that could be exploited as a data ledger, as is done extensively with BCH Opt-Return Codes. 
 </div>
-<h2>Dimecash Dilemma</h2>
 
-<h3> Repurposing Obviously Unspendable proof-of-burn addresses </h3>
-When someone creates a cryptocurrency wallet, what they are really doing is letting the computer randomly pick a very large number which is specially altered and then mathematically reduced into a smaller number.  But even the smaller number is quite large.  To make this number easier for people to deal with, an alphanumeric system is used. 
+<h2> Repurposing Obviously Unspendable proof-of-burn addresses </h2>
+When someone creates a cryptocurrency wallet, what they are really doing is letting the computer randomly pick a very large number which is specially altered and then mathematically reduced into a smaller number.  But even the smaller number is quite large.  To make this number easier for people to deal with, an alphanumeric system is used. This system is called Base58.  It represents numbers as capital and small letters and uses 58 different possibilities.  Visually confusing numbers are omited.  For example, the small "l" or capital "O" are never used.  Satoshi Nakamoto created Base58  
 
 <pre>
 Hash
@@ -32,7 +31,7 @@ UCa3wJJSB5Ywt2jaaFdsCxcNttqseHsAA6
 AVhWW1eEvhjPtxbmVnyqsSdmChWNK2tVLu
 </pre>
 
-The last six characters in these sets refer back to the first, as a check system.  The addresses could be understood as two parts that are stuck together:
+But this version of Base-58 is even more specific.  The last six characters in these sets refer back to the first, as a check system.  The addresses could be understood as two parts that are stuck together.  This is known as Base58-Check:
 
 <pre>
 Hash                         Check
@@ -56,6 +55,12 @@ DDogepartyxxxxxxxxxxxxxxxxxx w1dfzr
 These human-readable addresses are created by short-circuiting the process in a way where the check can be figured out, but where no secret very large number is used.  No private key could exist to "unlock" these.  They can be understood to act as a monetary black-hole.  Because the world doesn't have anything close to the raw computing power necessary to process trillions of large numbers until one of these human-readable addresses were to be generated, these addresses can be understood to never have a private key.  These addresses are called Obviously Unspendable because of this. I would rather use a different name, however.  I will call them Public Anchors since they are impossible to own or regulate and can come into existence as soon as they are first referenced.
 <p>
 I became fascinated with this process and now use a python script to create DogeCoin Public Anchors. The script is available <a href=https://github.com/johnrigler/unspendable> here. </a>
+
+<p>
+To understand more about proof-of-burn:
+
+<a href=https://en.bitcoin.it/wiki/Proof_of_burn> https://en.bitcoin.it/wiki/Proof_of_burn </a>
+
 <p>
 As an avid fan of James Joyce, I immediately discovered the Anchors for the first paragraph of "Finnegans Wake" on the Dogecoin blockchain.  
 
@@ -81,7 +86,8 @@ DC BACK To HoWTH CASTLE       GBesZt
 DC     AND ENViRoNS.          D2nMSf
 </pre> 
 
-I will soon provide a way to simply run the unspendable command from this website.
+If you feel like you are ready to create one of these anchors, then just visit the
+link at the top of this page.
 
 <h3> Advances Satoshi Codes </h3>
 
@@ -241,7 +247,16 @@ Satoshi Code Meaning
    39642     (see above)    
 </pre>
 
+The above codes can be pulled directly from the ledger with this command:
+
+<a href=https://dime.cash/cgi-bin/CULT.cgi> https://dime.cash/cgi-bin/CULT.cgi </a>
+
+Work is being done to better integrate this with revealing and storing the meanings of the Satoshi Codes, but the basic functionality which binds to the remote ledger is in place.
+
+
 <p>
+
+<h2>Dimecash Dilemma</h2>
 This brings us to the name of this section, the "dimecash dilemma". Like embedding messages into Opt-Return codes, these systems are still very much hacks of existing solutions that did not anticipate or account for their usefulness.  Sending many tiny transactions will potentially break a wallet and cause part or all of the funds to become inaccessible.  This is because of how the currency deals with Unspent Transaction Output (UTXO) and a phenomena called dust.  Basically, if a wallet shows 40 bitcoin exactly, and if the underlying ledger shows that the currency is stored as a record of 40 whole coins, then the ledger would easily be able to represent the results.  If however, the 40 whole coins were transferred into the address as thousands of tiny transactions, the system would have significantly more trouble.  In a traditional database, a field could very easily store either the value 40 or the value 39.81455123, but the ledger must deal with the data in a very different way that is beyond the scope of this document.
 <p>
 Also, another very different problem exists.  Because this system pushes for wide (general public) adoption of a low (or no) mandatory software structure, one could easily get confused and send a large sum of money into an obviously unspendable address as if it were a "vanity address".  What is obvious to a cryptography expert is not obvious to the general public.
@@ -254,6 +269,6 @@ The github page for dimecash, and the following whitepaper, further explains the
 
 <a href=https://github.com/johnrigler/dimecash> Dimecash on Github </a>
 
-The most obvious and useful way to use dimecash is as a stub or registry. 
+While this can be done on various alt-coins, the fork seeks to deal with issues of Dust (eventually the system stops working and a wallet may have to be deleted), begins to work with a reward system when coins are spend (in Doge, the whales could voluntarily do this), and finally consider ways that the entire chain can be loaded into a Hyperledger solution. By restricting Doge Addresses to DCx, when Dimecash is implemented, it could use DCA, DCB, etc. to avoid confusion. Different versions of Dimecash could possibly co-exist with exclusive naming. 
 
 </html>
