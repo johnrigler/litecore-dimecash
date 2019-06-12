@@ -10,9 +10,13 @@
 <h1>Welcome to Dimecash! </h1>
 <div>
 
-TLDR, test this out: <a href=http://dime.cash/Doge/form.php > here. </a>
+TLDR, test this out: <a href=http://dime.cash/form.php > here. </a>
+Also, an unspendable api is now available:
+<a href=https://dime.cash/unspendable.html> API </a>
 <hr>
-This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. The first is that (unlike bitcoin) currencies such as Dogecoin can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for an system of Advances Satoshi Codes to be used to express complicated ideas with a series of up to eight (or potentially more) digits.  The second expoit which feeds into this system involves the Base58Check (base-58) numerical representation which is inherited from bitcoin. Finally, this site will bring the two elements together with the use of portable "secret" files that can contain a fair amount of text which a human could make sense of, and which can also always be reduced to various small hashes.
+This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. The first is that (unlike bitcoin) currencies such as Dogecoin can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for an system of Advances Satoshi Codes to be implemented to express complicated ideas with a series of up to eight (or potentially more) digits in a system that is <a href= < cheap, reliable, and totally opened to anonymous entry.  The second expoit which feeds into this system involves the <a href=https://en.wikipedia.org/wiki/Base58> Base58Check </a> (base-58) numerical representation which is inherited from bitcoin. Finally, this site will bring the two elements together with the use of portable "secret" files that can contain a fair amount of text which a human could make sense of, and which can also always be reduced to various small hashes.  The value-add of dimecash is in the management of these secrets and the potential to support identity portals into secured blockchain solutions.  
+
+Because Dimecash seeks to use an addressing scheme that starts with DC, unspendable addresses can be shared with Dogecoin, so that the system can be started before the Litecoin fork is completed.  This may seem strange, but for the ideas expressed through Dimecash to take hold, atomic swaps between various currencies must be supported.  Regardless of the price of a currency, it still exists as an immutable record with Byzantine Fault Tolerance that could be exploited as a data ledger, as is done extensively with BCH Opt-Return Codes. 
 </div>
 <h2>Dimecash Dilemma</h2>
 
@@ -23,7 +27,7 @@ When someone creates a cryptocurrency wallet, what they are really doing is lett
 Hash
 ----------------------------------
 6DMzA8Vw8o91GKneBLehZp6Y29A75P2kY8
-ZYAzeF4uNLMj68ziNKeMRvb4ZGBazawXd
+EZYAzeF4uNLMj68ziNKeMRvb4ZGBazawXd
 UCa3wJJSB5Ywt2jaaFdsCxcNttqseHsAA6
 AVhWW1eEvhjPtxbmVnyqsSdmChWNK2tVLu
 </pre>
