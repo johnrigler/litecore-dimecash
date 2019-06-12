@@ -34,7 +34,7 @@ bash-3.2$ declare -f Fun.Times | sum
 47358 1
 ```
 So a transaction of $X.00047358 sent to an unspendable address 
-something like DCFUNTiMESXXXXXXXXXXXXXXXferbre could easily be interpreted as an intentional registration of 47358. http://dime.cash renders a crude PHP browser which would show this on the doge chain.  Because this is intended to be a universal system, various currencies, blockchains, or other ledger solutions such as Hedera Hashgraph could be side-chained into each other in an atomic way by an actor at any level.  In other words, anyone with a smart phone app that may also be forkable for litecoin or any script able to run dimecash-cli could equally register codes into dimecash (or into any other bitcoin fork).  
+something like DCFUNTiMESXXXXXXXXXXXXXXXferbre could easily be interpreted as an intentional registration of 47358. http://dime.cash renders a crude PHP browser which would show this on the doge chain.  Because this is intended to be a universal system, various currencies, blockchains, or other ledger solutions could be side-chained into each other in an atomic way by an actor at any level.  In other words, anyone with a smart phone app that may also be forkable for litecoin or any script able to run dimecash-cli could equally register codes into dimecash (or into any other bitcoin fork).  
 
 The critical piece which is necessary to get this system to function at its most basic level is the ability to create unspendable addresses for any of the coins.  My fork (github.com/johnrigler/unspendable) could be adjusted to work for various coins. 
 
@@ -47,7 +47,7 @@ The question of what an obviously unspendable address actually consists of is go
 
 I now have the beginnings of a website which will eventually help to interpret transactions sent to unspendable addresses.  For now, it does at least allow you to create an unspendable address.  No type checking yet, so avoid capital O, capital I, and the numbers 0 and 1.
 
-http://dime.cash/
+https://dime.cash/
 
 
 The name is a reference to James Joyce's largely unread masterpiece-- Finnegans Wake: 
