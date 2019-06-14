@@ -14,7 +14,14 @@ The unspendable api is now available, you can test from this site or remotely:
 <a href=https://dime.cash/api.html> API </a>
 <hr>
 <h2>Summary</h2>
-This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. The first is that (unlike bitcoin) currencies such as Dogecoin (itself a Litecoin fork) can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for an system of Advances Satoshi Codes to be implemented to express complicated ideas with a series of up to eight (or potentially more) digits in a system that is <a href= < cheap, reliable, and totally opened to anonymous entry.  The second expoit which feeds into this system involves the <a href=https://en.wikipedia.org/wiki/Base58> Base58Check </a> (base-58) numerical representation which is inherited from bitcoin. Finally, this site will bring the two elements together with the use of portable "secret" files that can contain a fair amount of text which a human could make sense of, and which can also always be reduced to various small hashes.  The value-add of dimecash is in the management of these secrets and the potential to support identity portals into secured blockchain solutions.  
+This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. <p> The first is that (unlike bitcoin) currencies such as Dogecoin (itself a Litecoin fork) can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for a system of Advances <a href=https://en.bitcoin.it/wiki/Satoshi_codes> Satoshi Codes </a> to be implemented to express complicated ideas with a series of up to eight (or potentially more) digits. Different messages would end up costing slightly more or less based on the hash of the message.  This is not a concern because the entire amount would still be dwarfed by mining fees, which cost less than a penny.  
+As a message system this is <a href=https://www.imdb.com/title/tt0119107/?ref_=fn_al_tt_1> Fast, Cheap & Out of Control. </a> 
+<p>  The second expoit involves the <a href=https://en.wikipedia.org/wiki/Base58> Base58Check </a> (base-58) numerical representation which is inherited from bitcoin.
+
+Readable text can be pushed into the ledger so that the above tiny transactions can be given a context. So a small code sent to DCxABRAMSxNAiLSzzzzDxxxxxxxxxk8h66 would have an implied different meaning than one sent to DCxARLENxDoGxRESCUEzzzzDxxxxthHJRZ.  Any funds sent to these addresses currently would be lost. Dimecash would seek to reward new tokens (diamonds) to replace those lost.  It is very important to only send tiny amounts using this system unless you are sending to a real address (unreadable).  Also, the point of this system is to not act as a currency, but as an agent of meaning or a linguistic ledger.  Because of its open nature, Dimecash can be vastly sidechained into other currencies and blockchains in order to bridge the gap between the public and private ledgers. 
+
+
+ <p> Finally, this site will bring the two elements together with the use of portable "secret" files that can contain a fair amount of text which a human could make sense of, and which can also always be reduced to various small hashes.  The value-add of dimecash is in the management of these secrets and the potential to support identity portals into secured blockchain solutions.  
 
 Because Dimecash seeks to use an addressing scheme that starts with DC, unspendable addresses can be shared with Dogecoin, so that the system can be started before the Litecoin fork is completed.  This may seem strange, but for the ideas expressed through Dimecash to take hold, atomic swaps between various currencies must be supported.  Regardless of the price of a currency, it still exists as an immutable record with Byzantine Fault Tolerance that could be exploited as a data ledger, as is done extensively with BCH Opt-Return Codes. 
 </div>
@@ -62,7 +69,7 @@ To understand more about proof-of-burn:
 <a href=https://en.bitcoin.it/wiki/Proof_of_burn> https://en.bitcoin.it/wiki/Proof_of_burn </a>
 
 <p>
-As an avid fan of James Joyce, I immediately discovered the Anchors for the first paragraph of "Finnegans Wake" on the Dogecoin blockchain.  
+As an avid fan of James Joyce, I immediately discovered some Anchors for the first paragraph of "Finnegans Wake" on the Dogecoin blockchain.  
 
 <pre>
 DCxxxRiVERRUNxPASTxEVExANDxxJ92X19
@@ -160,7 +167,7 @@ river.run() {
  
 </pre>
 
-After typing in the above text (which is programatically valid) I cut and pasted it into a bash shell.  Then the command to call it back.
+After typing in the above text (which is programatically valid) I cut and pasted it into a bash shell.  Then I enter the command to call it back.
 
 <pre>
 bash> declare -f river.run
@@ -222,7 +229,7 @@ river.run ()
 }
 </pre>
 
-The file now has the odd feature that is could generate two different hashes, depending on if the pounded out comments are included.
+The file now has the odd feature that it could generate two different hashes, depending on if the pounded out comments are included.
 <p>
 That is basically the whole of the system. Transactions can be registered into the  Public Anchor.  Here is a live example of this on the Doge Chain:
 
