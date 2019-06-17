@@ -24,7 +24,7 @@ array_shift($dirs);
 
 echo "<div class=breadcrumb>";
 
-$menupath = "http://localhost";
+$menupath = "https://$_SERVER[SERVER_NAME]";
 
 foreach($breadcrumbs as $crumb)
 {
