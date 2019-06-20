@@ -1,24 +1,17 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-
-<head>
-<link rel="stylesheet" type="text/css" href="/style.css">
-</head>
-
-<?php include "dir.php"; ?>
-<div class=body>
 <pre>
 This site has an unspendable api that can be called via a http get:
 
 <a href=
-https://dime.cash/cgi-bin/unspendable.cgi?first=D&name=FiRSTxUNiTED&seed=30 
-> https://dime.cash/cgi-bin/unspendable.cgi?first=D&name=FiRSTxUNiTED&seed=30</a>
+https://dime.cash/cgi-bin/unspendable.cgi?first=D&name=DCxFiRSTxUNiTED&seed=30 
+> https://dime.cash/cgi-bin/unspendable.cgi?first=D&name=DCxFiRSTxUNiTED&seed=30</a>
 
 or
 
-> curl "https://dime.cash/cgi-bin/unspendable.cgi?first=D&name=FiRSTxUNiTED&seed=30"
-DCxFiRSTxUNiTEDDxxxxxxxxxxxy3r2EYB
+> curl "https://dime.cash/cgi-bin/unspendable/cgi?first=D&name=DCxFiRSTxUNiTED&seed=30"
+DCxDCxFiRSTxUNiTEDDxxxxxxxxxzCuKHf
 
 The flags are:
 
@@ -31,8 +24,6 @@ seed (30 for Dogecoin)
 Right now, only dogecoin is supported, but you can download the python script and write your own wrapper or call it directly:
 
 <a href=https://github.com/johnrigler/unspendable> https://github.com/johnrigler/unspendable</a>
-
-You can also download this into a Termux App. on your smart phone.  In this way you can create these addresses wherever you are.  You can also use Termux to send some advanged messages through this system.  Or you will be able to eventually.  Since I am offering no specific software product, I can present things in a way that can be accesses by the most people with the least cost.  You can pay me later in parsonage exemption for the Cult of the Dolphin or some Beta church thing.
 </div>
 <br>
 To learn more about the Base58Check format: 
@@ -65,7 +56,6 @@ xxWoWxxBoBxxWoWxx
 
 If you succeed, you will redirected to a page like the one below.  Use your smart phone wallet app to capture an image of the QR code that you discover and then simply send some very small transaction.  Coming soon will be a form that creates the special bash functions that I use, will tell you what hash to send, and will keep a copy of your secret.
 <hr>
-<img src=https://dime.cash/images/bigboy.png width="50%" height="50%">
-</div>
+<img src=/images/bigboy.png width="50%" height="50%">
 </body>
 </html>

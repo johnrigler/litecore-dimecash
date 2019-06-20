@@ -4,9 +4,10 @@
 <div>
 
 The unspendable api is now available, you can test from this site or remotely:
-<a href=https://dime.cash/api.html> API </a>
+<a href=https://dime.cash/api/index.php> API </a>
 <hr>
 <h2>Summary</h2>
+<div>
 This is the home of the dimecash project.  The goal is to fork litecoin into a new linguistic currency that exploits two curiosities of being an alt-coin. <p> The first is that (unlike bitcoin) currencies such as Dogecoin (itself a Litecoin fork) can function and thrive in a certain niche, while being worth only a fraction of a penny each.  This allows for a system of Advances <a href=https://en.bitcoin.it/wiki/Satoshi_codes> Satoshi Codes </a> to be implemented to express complicated ideas with a series of up to eight (or potentially more) digits. Different messages would end up costing slightly more or less based on the hash of the message.  This is not a concern because the entire amount would still be dwarfed by mining fees, which cost less than a penny.  
 As a message system this is <a href=https://www.imdb.com/title/tt0119107/?ref_=fn_al_tt_1> Fast, Cheap & Out of Control. </a> 
 <p>  The second expoit involves the <a href=https://en.wikipedia.org/wiki/Base58> Base58Check </a> (base-58) numerical representation which is inherited from bitcoin.
@@ -87,7 +88,7 @@ DC     AND ENViRoNS.          D2nMSf
 </pre> 
 
 If you feel like you are ready to create one of these anchors, then just visit the
-link at the top of this page.
+link at <a href=https://dime.cash/api/index.php> API </a>.
 
 <h3> Advances Satoshi Codes </h3>
 
