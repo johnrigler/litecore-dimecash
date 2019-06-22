@@ -6,11 +6,9 @@ digit code (Advanced Satoshi Code) is used in conjunction with an obviously unsp
 If, for example a zip code were sent, then one might surmise it as such.  All manner of codes (including octal systems)
  can achieve different goals.
 
-Transactions can be based on a secret file which is at first addressed as its sum send to an unspendable address.  Since I 
-come from a unix shell background, I tend to express the secret as a bash function and use the 'sum' command to create a very
-small hash.  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction, 
-process and display it as human-readable text, or execute it locally.  
+Transactions can be based on a secret file which is at first addressed as its sum sent to an unspendable address.  The secret is devised outside of the system, but can be loaded into a Dimecash account (at some point).  Any nodes that have the secret stored as a bash function on their local drives would be able to confirm the transaction, process and display it as human-readable text, or execute it locally.  Other formats for the secrets that might be useful would be JSON, YAML, PHP, HTML, or SVG. 
 
+The litecoin code would need to be updated following a fairly well-documented process.  It is important to understand that what makes each coin acts as a unique database is always hard-coded directly into the source code itself.  Two system escapes would be added, that would see new potential hashes and would read in related functions if they were local to the machine where the processing was to take place.  Secrets are shared via ssh among the different host nodes, which in this case, all know each other.
 
 
 Example: 
