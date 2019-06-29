@@ -1,26 +1,33 @@
 <?php
 
+# This may not make sense to stay here
+
+function pretty_print($array) {
+
+echo "<pre>";
+print_r($array);
+echo "</pre>";
+
+}
+
 $cwd = getcwd();
 $this_dir = substr($cwd,strlen($_SERVER[DOCUMENT_ROOT]));
-$breadcrumbs = array();
-$files = array();
-$dirs = array();
 $dh = opendir('.');
 
 $breadcrumbs = explode("/", $this_dir);
 
+$exclude = array(".","..","images","cgi-bin");
 while (($tmp = readdir($dh)) !== false) 
 {
-	if(is_dir($tmp))
-		$dirs []= $tmp;
-	else
-		$files []= $tmp;
+  if(in_array($tmp,$exclude))
+           continue;
+  if(is_dir($tmp))
+	$dirs []= $tmp;
+  else
+	$files []= $tmp;
 
 }
 closedir($dh);
-
-array_shift($dirs);
-array_shift($dirs);
 
 echo "<div class=breadcrumb>";
 
@@ -50,4 +57,5 @@ foreach ($dirs as $dir)
 }
 
 echo "</div>";
+
 ?>

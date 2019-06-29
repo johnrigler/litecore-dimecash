@@ -3,13 +3,9 @@
 <head>
  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
  <meta http-equiv="refresh" content="10">
+ <title> homepage for ps4 users </title>
 
 <?php
-
-$fruit = array("apple","orange","cherry");
-
-
-#### BEGIN HERE
 
 $info = explode(" ",$_SERVER[HTTP_USER_AGENT]);
 
@@ -18,17 +14,17 @@ if ($info[1] == '(PlayStation')
 else
  echo '<link rel="stylesheet" type="text/css" href="style-ps.css">';
 
-?>
+?> 
 
 </head>
 <?php
-$dirs = array();
 include "dir.php";
 ?>
-	<div class=body>
-<?php
-include "welcome.php";
+<div class=body>
+<?php 
+include "ps4.php";
 
-?>
-</div>
+ ?></div>
+
+<?php echo "$info[1]" ; ?>
 </html>
