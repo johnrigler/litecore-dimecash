@@ -3,6 +3,9 @@
 <head>
  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
 
+ <meta http-equiv="refresh" content="10">
+
+
 <?php
 
 set_include_path(".:/home/dime/dimecash/php_library");
@@ -28,7 +31,7 @@ include "dir.php";
 	<div class=body>
 <?php
 
-include "welcome.php";
+include "public.php";
 
 ?>
 </div>

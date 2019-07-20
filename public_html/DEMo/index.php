@@ -2,6 +2,7 @@
 <html>
 <head>
  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+ <meta http-equiv="refresh" content="10000000000000">
 
 <?php
 
@@ -28,8 +29,18 @@ include "dir.php";
 	<div class=body>
 <?php
 
-include "welcome.php";
+include "post.php";
+
+$this_dir = `basename $(pwd)`;
+$this_dir = trim($this_dir);
+$nme="DCx" . `basename $(pwd) | sed 's/ //'` . "ooxxxxxxxxxxxxxx";
+
+echo $nme;
+#$nme="DCxDDD";
+
+echo `curl -s "https://dime.cash/cgi-bin/unspendable.cgi?first=D&name=$nme&seed=30"`;
+
+include "secrets.php";
 
 ?>
-</div>
 </html>

@@ -28,7 +28,7 @@ include "dir.php";
 	<div class=body>
 <?php
 
-include "welcome.php";
+include "chess.php";
 
 ?>
 </div>

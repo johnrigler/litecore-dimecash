@@ -2,11 +2,7 @@
 
 <html>
 
-<head>
-<link rel="stylesheet" type="text/css" href="/style.css">
-</head>
-
-<?php include "dir.php"; ?>
+<?php include "/dir.php"; ?>
 <div class=body>
 <pre>
 This site has an unspendable api that can be called via a http get:
@@ -48,8 +44,6 @@ Currently typechecking is not turned on, so if you enter an invalid character, t
   <input type="text" name="name"><br>
   <input type="submit">
 </form>
-
-
 
 <a href=http://dime.cash> Take me back home</a>
 

@@ -2,6 +2,7 @@
 <html>
 <head>
  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+ <meta http-equiv="refresh" content="10">
 
 <?php
 

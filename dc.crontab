@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Run this every minute from crontab
+# it will keep you from getting banned
+# for doing too many queries against a 
+# service such as chain.so.  
+
+# By running these from the backend, an
+# attacker would never be able to 
+# cause your IP to be black-listed
+
+# * * * * * /home/dime/dimecash/dc.crontab >> /home/dime/dimecash/cron.log 2>&1
+
+. /home/dime/alp/alp.bash
+
+#ls -d /home/dime/secrets/DCxW*
+
+cd /home/dime/secrets
+
+
+a.lsu xBTC | head -5 | while read ANCHOR
+   do
+   rm /home/dime/secrets/$ANCHOR
+   a.dci $ANCHOR | grep success
+   if [[ $? -eq 0 ]]
+     then 
+     mkdir $ANCHOR
+     fi
+     
+   sleep 4
+   done

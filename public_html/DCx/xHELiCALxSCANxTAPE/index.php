@@ -2,6 +2,13 @@
 <html>
 <head>
  <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+ <meta http-equiv="refresh" content="10">
+
+<head>
+<style>
+span {color:red;}
+</style>
+
 
 <?php
 
@@ -28,7 +35,7 @@ include "dir.php";
 	<div class=body>
 <?php
 
-include "welcome.php";
+include "1_01.php";
 
 ?>
 </div>
