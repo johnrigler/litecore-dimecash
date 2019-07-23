@@ -7,6 +7,12 @@
 
 <?php
 
+set_include_path(".:/home/dime/dimecash/php_library");
+include "lib.php";
+include "cookie_update.php";
+$fruit = array("apple","orange","cherry");
+
+
 $info = explode(" ",$_SERVER[HTTP_USER_AGENT]);
 
 if ($info[1] == '(PlayStation')
